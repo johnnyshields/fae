@@ -28,7 +28,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'jquery-ui-rails', '~> 4.2.1'
   s.add_dependency 'remotipart', '~> 1.3.1'
   s.add_dependency 'carrierwave', '~> 0.10.0'
-  s.add_dependency 'rmagick', '~> 2.13.3'
   s.add_dependency 'judge', '~> 2.1.1'
   s.add_dependency 'judge-simple_form', '~> 1.0.0'
   s.add_dependency 'acts_as_list', '~> 0.9.0'
@@ -36,6 +35,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'slim'
   s.add_dependency 'kaminari', '~> 0.17.0'
 
+  s.add_development_dependency 'rmagick', '~> 2.13.3'
   s.add_development_dependency 'thin'
   s.add_development_dependency 'better_errors'
   s.add_development_dependency 'binding_of_caller'
