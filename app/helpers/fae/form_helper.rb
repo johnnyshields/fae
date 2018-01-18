@@ -117,8 +117,7 @@ module Fae
     end
 
     def label_and_hint(attribute, options)
-      # @depreciation - remove dark_hint option in v2.0
-      hint = options[:hint] || options[:dark_hint]
+      hint = options[:hint]
 
       options[:helper_text] = attempt_common_helper_text(attribute) if options[:helper_text].blank?
 

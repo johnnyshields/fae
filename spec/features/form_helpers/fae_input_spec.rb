@@ -28,14 +28,8 @@ feature 'fae_input' do
 
   scenario 'should display hint when clicked', js: true do
     expect(page).to_not have_content('Normal Hint')
-    page.find('.release_name .hinter-clicker').trigger('click')
-    expect(page).to have_content('Normal Hint')
-  end
-
-  scenario 'should display dark hint when clicked', js: true do
-    expect(page).to_not have_content('Dark Hint')
     page.find('.release_vintage .hinter-clicker').trigger('click')
-    expect(page).to have_content('Dark Hint')
+    expect(page).to have_content('Normal Hint')
   end
 
   scenario 'should hide label on hidden fields', js: true do
