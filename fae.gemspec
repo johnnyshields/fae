@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   # other dependencies
   s.add_dependency 'acts_as_list', '~> 0.9.0'
   s.add_dependency 'browser', '~> 0.8.0'
-  s.add_dependency 'carrierwave', '~> 0.11.0'
+  s.add_dependency 'carrierwave', '>= 0.11.0'
   s.add_dependency 'devise', '>= 3.4.1'
   s.add_dependency 'jquery-ui-rails', '~> 4.2.1'
   s.add_dependency 'judge', '~> 2.1.1'
